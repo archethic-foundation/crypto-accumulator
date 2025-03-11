@@ -7,7 +7,7 @@
 *.dll
 *.so
 *.dylib
-accumulator-go
+crypto-accumulator
 
 # Test binary, built with `go test -c`
 *.test

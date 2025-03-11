@@ -1,4 +1,4 @@
-module github.com/samuelmanzanera/accumulator-go
+module github.com/archethic-foundation/crypto-accumulator
 
 go 1.22.4
 
