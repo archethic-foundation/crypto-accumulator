@@ -1,0 +1,15 @@
+[package]
+name = "crypto_accumulator"
+version = "0.1.0"
+edition = "2021"
+license = "AGPL-3.0"
+
+[lib]
+name = "crypto_accumulator"
+path = "src/lib.rs"
+crate-type = ["cdylib"]
+
+[dependencies]
+rand = "0.8.5"          # For random number generation
+rustler = "0.36.1"
+rsa = { git = "https://github.com/archethic-foundation/accumulator-rsa.git", branch = "master" }
